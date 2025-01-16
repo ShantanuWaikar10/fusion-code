@@ -2,7 +2,6 @@ import React from "react";
 import IMG4 from "../assets/img4.avif";
 import IMG5 from "../assets/img5.avif";
 import IMG6 from "../assets/img6.avif";
-import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Section_four = () => {
   return (

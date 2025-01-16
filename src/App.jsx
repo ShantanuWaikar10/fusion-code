@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Section_five from "./components/Section_five";
 import Section_four from "./components/Section_four";
 import Section_one from "./components/Section_one";
 import Section_three from "./components/Section_three";
@@ -13,6 +14,7 @@ function App() {
       <Section_two/>
       <Section_three/>
       <Section_four/>
+      <Section_five/>
     </div>
   );
 }
