@@ -4,8 +4,8 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Section_two = () => {
   return (
-    <div className="flex gap-5 m-20">
-      <div>
+    <div className="flex flex-col-reverse lg:flex-row gap-5 m-20">
+      <div className="hidden md:block">
         <p className="font-semibold">Skin Care+</p>
         <h1 className="text-3xl mt-3">Intensive formulations for complex skin</h1>
         <p className="mt-3">
@@ -21,7 +21,7 @@ const Section_two = () => {
                   <IoIosArrowRoundForward size={25}/>
                 </button>
       </div>
-      <div className="flex flex-col items-center">
+      <div className="lg:flex flex-col items-center hidden">
         <div className="max-w-[50vw]">
             <img src={IMG2} alt="" />
         </div>

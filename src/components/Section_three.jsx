@@ -4,9 +4,9 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Section_three = () => {
   return (
-    <div className="gap-20 flex min-h-[80vh] items-center">
-      <div className="flex flex-col gap-5 pl-10">
-      <p className="font-semibold">Festive giving</p>
+    <div className="gap-20 flex flex-col lg:flex-row min-h-[80vh] items-center">
+      <div className="flex flex-col gap-5 px-10">
+        <p className="font-semibold">Festive giving</p>
         <h1 className="text-3xl">Resurgent beginnings</h1>
         <p>
           This new year, wishes for revitalised energy take form in a curated
@@ -17,14 +17,14 @@ const Section_three = () => {
         <div></div>
         <button
           type="button"
-          className="max-w-[17vw] flex justify-between text-gray-900 border border-gray-300 bg-transparent  hover:bg-black hover:text-white focus:ring-4  font-medium text-sm px-5 py-3 me-2 mb-2 "
+          className="min-w-full md:min-w-[5vw] max-w-[57vw] flex justify-between text-gray-900 border border-gray-300 bg-transparent  hover:bg-black hover:text-white focus:ring-4  font-medium text-sm px-5 py-3 me-2 mb-2 "
         >
-          Explore seasonal gift <IoIosArrowRoundForward size={25} />
+          Explore gift <IoIosArrowRoundForward size={25} />
         </button>
       </div>
       <div>
         <img
-          className="object-fill h-[70vh] min-w-[60vw]"
+          className="object-fill h-[40vh] md:h-[50vh] lg:h-[70vh] min-w-[60vw]"
           src={IMG3}
           alt="img3"
         />

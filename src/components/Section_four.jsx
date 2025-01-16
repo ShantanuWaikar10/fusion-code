@@ -17,7 +17,7 @@ const Section_four = () => {
           A gently exfoliating formulation
         </p>
       </div>
-      <div className="flex flex-col items-center">
+      <div className="hidden lg:flex flex-col items-center">
         <div>
           <img className="max-w-[50vw] max-h-[60vh]" src={IMG5} alt="" />
         </div>
@@ -28,7 +28,7 @@ const Section_four = () => {
           Leaves skin feeling fresh, smooth and soft
         </p>
       </div>
-      <div className="flex flex-col items-center">
+      <div className="hidden md:flex flex-col items-center">
         <div>
           <img className="max-w-[50vw] max-h-[60vh]" src={IMG6} alt="" />
         </div>
